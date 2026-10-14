@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yatai Nights · Política de privadesa / Privacy Policy</title>
+<meta name="description" content="Política de privadesa de l'app Yatai Nights: Ramen Tycoon.">
+<style>
+  :root{--bg:#FFFFFF;--ink:#1B1F3B;--muted:#5B6185;--line:#E6E3DC;--accent:#C8323A;--soft:#F6F3EC;--chip:#EDEBF7}
+  @media (prefers-color-scheme: dark){:root{--bg:#11142A;--ink:#F2EEE4;--muted:#A9ADCB;--line:#2C3260;--accent:#FF7A6B;--soft:#1B2040;--chip:#262C55}}
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif}
+  .wrap{max-width:760px;margin:0 auto;padding:28px 16px 64px}
+  header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:12px;margin-bottom:8px}
+  .brand{font-weight:800;letter-spacing:.3px}
+  .brand span{color:var(--accent)}
+  nav.langs{display:flex;flex-wrap:wrap;gap:6px}
+  nav.langs a{padding:4px 10px;border-radius:999px;background:var(--chip);color:var(--ink);text-decoration:none;font-size:14px;font-weight:600}
+  nav.langs a:hover{outline:2px solid var(--accent)}
+  h1{font-size:28px;line-height:1.2;margin:24px 0 4px}
+  h2{font-size:19px;margin:32px 0 8px}
+  p,li{max-width:70ch}
+  a{color:var(--accent)}
+  .meta{color:var(--muted);font-size:14px;margin:0 0 20px}
+  .summary{background:var(--soft);border-radius:12px;padding:14px 18px;margin:16px 0}
+  .summary ul{margin:6px 0 0;padding-left:20px}
+  .tbl{overflow-x:auto;margin:10px 0}
+  table{border-collapse:collapse;width:100%;font-size:14.5px;min-width:520px}
+  th,td{text-align:left;vertical-align:top;padding:8px 10px;border-bottom:1px solid var(--line)}
+  th{background:var(--soft)}
+  footer{margin-top:48px;color:var(--muted);font-size:14px;border-top:1px solid var(--line);padding-top:16px}
+  /* Un sol idioma visible: el de l'enllaç (#ca, #es…) o, per defecte, el català */
+  .lang{display:none}
+  .lang:target{display:block}
+  body:not(:has(.lang:target)) #ca{display:block}
+</style>
+<script>
+  // Si s'obre sense idioma, tria el del navegador (sense JS es mostra el català).
+  (function(){
+    if (location.hash) return;
+    var l=(navigator.language||'ca').slice(0,2).toLowerCase();
+    if (['ca','es','en','de','fr'].indexOf(l)>-1 && l!=='ca') location.replace('#'+l);
+  })();
+</script>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="brand">Yatai <span>Nights</span></div>
+  <nav class="langs" aria-label="Idioma / Language">
+    <a href="#ca" hreflang="ca">Català</a>
+    <a href="#es" hreflang="es">Castellano</a>
+    <a href="#en" hreflang="en">English</a>
+    <a href="#de" hreflang="de">Deutsch</a>
+    <a href="#fr" hreflang="fr">Français</a>
+  </nav>
+</header>
+
+<!-- ════════════════════════════ CATALÀ ════════════════════════════ -->
+<section class="lang" id="ca" lang="ca">
+<h1>Política de privadesa</h1>
+<p class="meta">Yatai Nights: Ramen Tycoon · Darrera actualització: 14 d'octubre de 2026</p>
+
+<div class="summary"><strong>En poques paraules</strong>
+<ul>
+  <li>No cal crear cap compte. No et demanem el nom, el correu ni el telèfon.</li>
+  <li>La teva partida i el nom del teu local es guarden només al teu mòbil.</li>
+  <li>Google AdMob mostra anuncis i, si hi consents, pot fer-los personalitzats.</li>
+  <li>RevenueCat gestiona les compres per saber què has comprat. El pagament el fa Google Play.</li>
+  <li>No venem les teves dades a ningú.</li>
+</ul></div>
+
+<h2>1. Qui és el responsable</h2>
+<p>El responsable del tractament és <strong>{{RESPONSABLE}}</strong>, desenvolupador de l'app Yatai Nights: Ramen Tycoon («l'app»). Per a qualsevol qüestió sobre privadesa, escriu a <a href="mailto:{{CORREU}}">{{CORREU}}</a>.</p>
+
+<h2>2. Dades que es queden al teu mòbil</h2>
+<p>El progrés del joc (monedes, gemmes, millores, estils, rècords), el nom que poses al cartell i l'idioma es guarden només a l'emmagatzematge del teu dispositiu. No els rebem. Si desinstal·les l'app o n'esborres les dades, es perden. La subscripció VIP i «Treure anuncis» es poden recuperar amb «Restaurar compres».</p>
+<p>Quan comparteixes la imatge del teu imperi, l'app la crea al mòbil i l'envia a l'app que triïs des del menú de compartir del sistema. Nosaltres no la rebem.</p>
+
+<h2>3. Dades que tracten els nostres proveïdors</h2>
+<div class="tbl"><table>
+<tr><th>Proveïdor</th><th>Dades</th><th>Per a què</th><th>Base legal</th></tr>
+<tr><td>Google AdMob (Google Ireland Ltd.)</td><td>Identificador de publicitat del dispositiu, adreça IP (ubicació aproximada), interaccions amb els anuncis i l'app, dades de diagnòstic i rendiment</td><td>Mostrar anuncis, mesurar-los, analítica i prevenció del frau</td><td>El teu consentiment per als anuncis personalitzats i per accedir a l'identificador; interès legítim per als anuncis no personalitzats i la prevenció del frau</td></tr>
+<tr><td>RevenueCat, Inc.</td><td>Identificador anònim generat per RevenueCat, historial de compres, dades del dispositiu (sistema operatiu, versió de l'app, país de la botiga), adreça IP</td><td>Validar les compres, activar VIP i «Treure anuncis», lliurar les gemmes i restaurar compres</td><td>Execució del contracte de compra; obligacions legals de comptabilitat</td></tr>
+<tr><td>Google Play (Google Ireland Ltd.)</td><td>Dades de pagament i del teu compte de Google</td><td>Cobrar les compres i gestionar les subscripcions i els reemborsaments</td><td>Ho tracta Google com a responsable, segons la seva política</td></tr>
+</table></div>
+<p>No rebem mai les dades de la teva targeta. Més informació: <a href="https://policies.google.com/privacy" rel="noopener">Política de privadesa de Google</a>, <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">com fa servir Google les dades de les apps que utilitzen els seus serveis</a> i <a href="https://www.revenuecat.com/privacy" rel="noopener">Política de privadesa de RevenueCat</a>.</p>
+
+<h2>4. Anuncis i consentiment</h2>
+<p>Si ets a l'Espai Econòmic Europeu, al Regne Unit o a Suïssa, en obrir l'app per primer cop veuràs el formulari de consentiment de Google. Hi pots acceptar, rebutjar o triar per finalitats. Si rebutges, pots continuar jugant: veuràs anuncis no personalitzats o limitats.</p>
+<p>Pots canviar la teva decisió quan vulguis a <strong>Perfil → Opcions de privadesa (anuncis)</strong>. També pots restablir o desactivar l'identificador de publicitat a la configuració d'Android (Google → Anuncis). Si compres «Treure anuncis» o la subscripció VIP, l'app deixa de mostrar anuncis.</p>
+
+<h2>5. Destinataris i transferències internacionals</h2>
+<p>Només compartim dades amb els proveïdors de la secció 3. RevenueCat és als Estats Units, i Google pot tractar dades fora de l'Espai Econòmic Europeu. En aquests casos, les transferències es fan amb les garanties que preveu el RGPD, com les clàusules contractuals tipus de la Comissió Europea o el Marc de Privadesa de Dades UE-EUA, quan correspongui.</p>
+
+<h2>6. Quant de temps es guarden</h2>
+<ul>
+  <li>Dades del mòbil: fins que desinstal·lis l'app o n'esborris les dades.</li>
+  <li>Registres de compres a RevenueCat: mentre calgui per gestionar les teves compres i durant els terminis que exigeix la llei, per exemple a efectes fiscals.</li>
+  <li>Dades d'AdMob: segons els terminis de retenció de Google.</li>
+</ul>
+
+<h2>7. Menors</h2>
+<p>L'app no està adreçada a menors de 13 anys i no en recollim dades conscientment. A Espanya, l'edat mínima per consentir el tractament de dades és de 14 anys. Si tens menys edat que la que fixa el teu país, demana a un pare, mare o tutor que t'ajudi amb el formulari d'anuncis.</p>
+
+<h2>8. Els teus drets</h2>
+<p>Pots exercir els drets d'accés, rectificació, supressió, oposició, limitació del tractament i portabilitat, i retirar el consentiment en qualsevol moment, sense que això afecti el que s'hagi fet abans. Escriu a <a href="mailto:{{CORREU}}">{{CORREU}}</a>. Com que l'app no té comptes, per localitzar les teves compres indica'ns el número de comanda de Google Play (comença per «GPA.»), que trobaràs al correu de rebut de Google.</p>
+<p>Si creus que no hem atès bé la teva sol·licitud, pots presentar una reclamació a l'<a href="https://www.aepd.es" rel="noopener">Agència Espanyola de Protecció de Dades</a> o a l'autoritat del teu país.</p>
+
+<h2>9. Seguretat</h2>
+<p>Les comunicacions amb Google i RevenueCat viatgen xifrades (HTTPS). Fem servir proveïdors que apliquen mesures de seguretat adequades.</p>
+
+<h2>10. Canvis en aquesta política</h2>
+<p>Si canviem aquesta política, n'actualitzarem la data a dalt. Si els canvis són importants, t'avisarem dins de l'app.</p>
+
+<h2>11. Contacte</h2>
+<p>{{RESPONSABLE}} · <a href="mailto:{{CORREU}}">{{CORREU}}</a></p>
+</section>
+
+<!-- ════════════════════════════ CASTELLANO ════════════════════════════ -->
+<section class="lang" id="es" lang="es">
+<h1>Política de privacidad</h1>
+<p class="meta">Yatai Nights: Ramen Tycoon · Última actualización: 14 de octubre de 2026</p>
+
+<div class="summary"><strong>En pocas palabras</strong>
+<ul>
+  <li>No hace falta crear ninguna cuenta. No te pedimos el nombre, el correo ni el teléfono.</li>
+  <li>Tu partida y el nombre de tu local se guardan solo en tu móvil.</li>
+  <li>Google AdMob muestra anuncios y, si lo consientes, puede personalizarlos.</li>
+  <li>RevenueCat gestiona las compras para saber qué has comprado. El pago lo hace Google Play.</li>
+  <li>No vendemos tus datos a nadie.</li>
+</ul></div>
+
+<h2>1. Quién es el responsable</h2>
+<p>El responsable del tratamiento es <strong>{{RESPONSABLE}}</strong>, desarrollador de la app Yatai Nights: Ramen Tycoon («la app»). Para cualquier cuestión sobre privacidad, escribe a <a href="mailto:{{CORREU}}">{{CORREU}}</a>.</p>
+
+<h2>2. Datos que se quedan en tu móvil</h2>
+<p>El progreso del juego (monedas, gemas, mejoras, estilos, récords), el nombre que pones en el cartel y el idioma se guardan solo en el almacenamiento de tu dispositivo. No los recibimos. Si desinstalas la app o borras sus datos, se pierden. La suscripción VIP y «Quitar anuncios» se pueden recuperar con «Restaurar compras».</p>
+<p>Cuando compartes la imagen de tu imperio, la app la crea en el móvil y la envía a la app que elijas desde el menú de compartir del sistema. Nosotros no la recibimos.</p>
+
+<h2>3. Datos que tratan nuestros proveedores</h2>
+<div class="tbl"><table>
+<tr><th>Proveedor</th><th>Datos</th><th>Para qué</th><th>Base legal</th></tr>
+<tr><td>Google AdMob (Google Ireland Ltd.)</td><td>Identificador de publicidad del dispositivo, dirección IP (ubicación aproximada), interacciones con los anuncios y la app, datos de diagnóstico y rendimiento</td><td>Mostrar anuncios, medirlos, analítica y prevención del fraude</td><td>Tu consentimiento para los anuncios personalizados y para acceder al identificador; interés legítimo para los anuncios no personalizados y la prevención del fraude</td></tr>
+<tr><td>RevenueCat, Inc.</td><td>Identificador anónimo generado por RevenueCat, historial de compras, datos del dispositivo (sistema operativo, versión de la app, país de la tienda), dirección IP</td><td>Validar las compras, activar VIP y «Quitar anuncios», entregar las gemas y restaurar compras</td><td>Ejecución del contrato de compra; obligaciones legales contables</td></tr>
+<tr><td>Google Play (Google Ireland Ltd.)</td><td>Datos de pago y de tu cuenta de Google</td><td>Cobrar las compras y gestionar las suscripciones y los reembolsos</td><td>Los trata Google como responsable, según su política</td></tr>
+</table></div>
+<p>Nunca recibimos los datos de tu tarjeta. Más información: <a href="https://policies.google.com/privacy" rel="noopener">Política de privacidad de Google</a>, <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">cómo usa Google los datos de las apps que utilizan sus servicios</a> y <a href="https://www.revenuecat.com/privacy" rel="noopener">Política de privacidad de RevenueCat</a>.</p>
+
+<h2>4. Anuncios y consentimiento</h2>
+<p>Si estás en el Espacio Económico Europeo, el Reino Unido o Suiza, al abrir la app por primera vez verás el formulario de consentimiento de Google. Puedes aceptar, rechazar o elegir por finalidades. Si rechazas, puedes seguir jugando: verás anuncios no personalizados o limitados.</p>
+<p>Puedes cambiar tu decisión cuando quieras en <strong>Perfil → Opciones de privacidad (anuncios)</strong>. También puedes restablecer o desactivar el identificador de publicidad en los ajustes de Android (Google → Anuncios). Si compras «Quitar anuncios» o la suscripción VIP, la app deja de mostrar anuncios.</p>
+
+<h2>5. Destinatarios y transferencias internacionales</h2>
+<p>Solo compartimos datos con los proveedores de la sección 3. RevenueCat está en Estados Unidos, y Google puede tratar datos fuera del Espacio Económico Europeo. En esos casos, las transferencias se hacen con las garantías que prevé el RGPD, como las cláusulas contractuales tipo de la Comisión Europea o el Marco de Privacidad de Datos UE-EE. UU., cuando corresponda.</p>
+
+<h2>6. Cuánto tiempo se guardan</h2>
+<ul>
+  <li>Datos del móvil: hasta que desinstales la app o borres sus datos.</li>
+  <li>Registros de compras en RevenueCat: mientras sea necesario para gestionar tus compras y durante los plazos que exige la ley, por ejemplo a efectos fiscales.</li>
+  <li>Datos de AdMob: según los plazos de retención de Google.</li>
+</ul>
+
+<h2>7. Menores</h2>
+<p>La app no está dirigida a menores de 13 años y no recogemos sus datos conscientemente. En España, la edad mínima para consentir el tratamiento de datos es de 14 años. Si tienes menos edad de la que fija tu país, pide a tu padre, madre o tutor que te ayude con el formulario de anuncios.</p>
+
+<h2>8. Tus derechos</h2>
+<p>Puedes ejercer los derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad, y retirar el consentimiento en cualquier momento, sin que ello afecte a lo realizado antes. Escribe a <a href="mailto:{{CORREU}}">{{CORREU}}</a>. Como la app no tiene cuentas, para localizar tus compras indícanos el número de pedido de Google Play (empieza por «GPA.»), que encontrarás en el correo de recibo de Google.</p>
+<p>Si crees que no hemos atendido bien tu solicitud, puedes presentar una reclamación ante la <a href="https://www.aepd.es" rel="noopener">Agencia Española de Protección de Datos</a> o la autoridad de tu país.</p>
+
+<h2>9. Seguridad</h2>
+<p>Las comunicaciones con Google y RevenueCat viajan cifradas (HTTPS). Usamos proveedores que aplican medidas de seguridad adecuadas.</p>
+
+<h2>10. Cambios en esta política</h2>
+<p>Si cambiamos esta política, actualizaremos la fecha de arriba. Si los cambios son importantes, te avisaremos dentro de la app.</p>
+
+<h2>11. Contacto</h2>
+<p>{{RESPONSABLE}} · <a href="mailto:{{CORREU}}">{{CORREU}}</a></p>
+</section>
+
+<!-- ════════════════════════════ ENGLISH ════════════════════════════ -->
+<section class="lang" id="en" lang="en">
+<h1>Privacy Policy</h1>
+<p class="meta">Yatai Nights: Ramen Tycoon · Last updated: 14 October 2026</p>
+
+<div class="summary"><strong>In short</strong>
+<ul>
+  <li>No account is needed. We don't ask for your name, email or phone number.</li>
+  <li>Your game progress and your shop's name are stored only on your phone.</li>
+  <li>Google AdMob shows ads and, if you agree, may personalise them.</li>
+  <li>RevenueCat manages purchases so the app knows what you bought. Payment is handled by Google Play.</li>
+  <li>We do not sell your data.</li>
+</ul></div>
+
+<h2>1. Who is responsible</h2>
+<p>The data controller is <strong>{{RESPONSABLE}}</strong>, developer of the Yatai Nights: Ramen Tycoon app ("the app"). For any privacy question, write to <a href="mailto:{{CORREU}}">{{CORREU}}</a>.</p>
+
+<h2>2. Data that stays on your phone</h2>
+<p>Your game progress (coins, gems, upgrades, styles, records), the name you put on your sign and your language are stored only on your device. We do not receive them. If you uninstall the app or clear its data, they are lost. The VIP subscription and "Remove ads" can be recovered with "Restore purchases".</p>
+<p>When you share the picture of your empire, the app creates it on your phone and sends it to the app you choose from the system share menu. We do not receive it.</p>
+
+<h2>3. Data processed by our providers</h2>
+<div class="tbl"><table>
+<tr><th>Provider</th><th>Data</th><th>Purpose</th><th>Legal basis</th></tr>
+<tr><td>Google AdMob (Google Ireland Ltd.)</td><td>Device advertising ID, IP address (approximate location), interactions with ads and the app, diagnostic and performance data</td><td>Showing and measuring ads, analytics and fraud prevention</td><td>Your consent for personalised ads and for accessing the identifier; legitimate interest for non-personalised ads and fraud prevention</td></tr>
+<tr><td>RevenueCat, Inc.</td><td>Anonymous ID generated by RevenueCat, purchase history, device data (operating system, app version, store country), IP address</td><td>Validating purchases, unlocking VIP and "Remove ads", delivering gems and restoring purchases</td><td>Performance of the purchase contract; legal accounting obligations</td></tr>
+<tr><td>Google Play (Google Ireland Ltd.)</td><td>Payment data and your Google account data</td><td>Charging purchases and managing subscriptions and refunds</td><td>Processed by Google as controller, under its own policy</td></tr>
+</table></div>
+<p>We never receive your card details. More information: <a href="https://policies.google.com/privacy" rel="noopener">Google Privacy Policy</a>, <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">how Google uses information from apps that use its services</a> and <a href="https://www.revenuecat.com/privacy" rel="noopener">RevenueCat Privacy Policy</a>.</p>
+
+<h2>4. Ads and consent</h2>
+<p>If you are in the European Economic Area, the United Kingdom or Switzerland, the first time you open the app you will see Google's consent form. You can accept, reject or choose by purpose. If you reject, you can keep playing: you will see non-personalised or limited ads.</p>
+<p>You can change your choice at any time in <strong>Profile → Privacy options (ads)</strong>. You can also reset or delete your advertising ID in your Android settings (Google → Ads). If you buy "Remove ads" or the VIP subscription, the app stops showing ads.</p>
+
+<h2>5. Recipients and international transfers</h2>
+<p>We only share data with the providers listed in section 3. RevenueCat is based in the United States, and Google may process data outside the European Economic Area. In those cases, transfers rely on the safeguards provided by the GDPR, such as the European Commission's Standard Contractual Clauses or the EU-U.S. Data Privacy Framework, where applicable.</p>
+
+<h2>6. How long data is kept</h2>
+<ul>
+  <li>Data on your phone: until you uninstall the app or clear its data.</li>
+  <li>Purchase records at RevenueCat: for as long as needed to manage your purchases and for the periods required by law, for example for tax purposes.</li>
+  <li>AdMob data: according to Google's retention periods.</li>
+</ul>
+
+<h2>7. Children</h2>
+<p>The app is not directed at children under 13 and we do not knowingly collect their data. In Spain, the minimum age to consent to data processing is 14. If you are younger than the age set in your country, ask a parent or guardian to help you with the ads consent form.</p>
+
+<h2>8. Your rights</h2>
+<p>You can exercise your rights of access, rectification, erasure, objection, restriction of processing and portability, and withdraw your consent at any time without affecting what was done before. Write to <a href="mailto:{{CORREU}}">{{CORREU}}</a>. As the app has no accounts, to find your purchases please include your Google Play order number (it starts with "GPA."), which you can find in Google's receipt email.</p>
+<p>If you think we have not handled your request properly, you can file a complaint with the <a href="https://www.aepd.es" rel="noopener">Spanish Data Protection Agency (AEPD)</a> or the authority in your country.</p>
+
+<h2>9. Security</h2>
+<p>Communications with Google and RevenueCat are encrypted (HTTPS). We use providers that apply appropriate security measures.</p>
+
+<h2>10. Changes to this policy</h2>
+<p>If we change this policy, we will update the date at the top. If the changes are significant, we will let you know in the app.</p>
+
+<h2>11. Contact</h2>
+<p>{{RESPONSABLE}} · <a href="mailto:{{CORREU}}">{{CORREU}}</a></p>
+</section>
+
+<!-- ════════════════════════════ DEUTSCH ════════════════════════════ -->
+<section class="lang" id="de" lang="de">
+<h1>Datenschutzerklärung</h1>
+<p class="meta">Yatai Nights: Ramen Tycoon · Zuletzt aktualisiert: 14. Oktober 2026</p>
+
+<div class="summary"><strong>Kurz gesagt</strong>
+<ul>
+  <li>Du brauchst kein Konto. Wir fragen nicht nach Name, E-Mail-Adresse oder Telefonnummer.</li>
+  <li>Dein Spielstand und der Name deines Ladens werden nur auf deinem Handy gespeichert.</li>
+  <li>Google AdMob zeigt Werbung an und kann sie mit deiner Einwilligung personalisieren.</li>
+  <li>RevenueCat verwaltet die Käufe, damit die App weiß, was du gekauft hast. Die Zahlung wickelt Google Play ab.</li>
+  <li>Wir verkaufen deine Daten nicht.</li>
+</ul></div>
+
+<h2>1. Verantwortlicher</h2>
+<p>Verantwortlich für die Datenverarbeitung ist <strong>{{RESPONSABLE}}</strong>, Entwickler der App Yatai Nights: Ramen Tycoon („die App“). Bei Fragen zum Datenschutz schreib an <a href="mailto:{{CORREU}}">{{CORREU}}</a>.</p>
+
+<h2>2. Daten, die auf deinem Handy bleiben</h2>
+<p>Dein Spielfortschritt (Münzen, Edelsteine, Verbesserungen, Stile, Rekorde), der Name auf deinem Schild und die Sprache werden nur auf deinem Gerät gespeichert. Wir erhalten sie nicht. Wenn du die App deinstallierst oder ihre Daten löschst, gehen sie verloren. Das VIP-Abo und „Werbung entfernen“ kannst du mit „Käufe wiederherstellen“ zurückholen.</p>
+<p>Wenn du das Bild deines Imperiums teilst, erstellt die App es auf deinem Handy und gibt es über das Teilen-Menü des Systems an die App weiter, die du auswählst. Wir erhalten es nicht.</p>
+
+<h2>3. Daten, die unsere Anbieter verarbeiten</h2>
+<div class="tbl"><table>
+<tr><th>Anbieter</th><th>Daten</th><th>Zweck</th><th>Rechtsgrundlage</th></tr>
+<tr><td>Google AdMob (Google Ireland Ltd.)</td><td>Werbe-ID des Geräts, IP-Adresse (ungefährer Standort), Interaktionen mit Werbung und App, Diagnose- und Leistungsdaten</td><td>Werbung anzeigen und messen, Analyse und Betrugsprävention</td><td>Deine Einwilligung für personalisierte Werbung und den Zugriff auf die Kennung; berechtigtes Interesse für nicht personalisierte Werbung und Betrugsprävention</td></tr>
+<tr><td>RevenueCat, Inc.</td><td>Von RevenueCat erzeugte anonyme ID, Kaufhistorie, Gerätedaten (Betriebssystem, App-Version, Store-Land), IP-Adresse</td><td>Käufe prüfen, VIP und „Werbung entfernen“ freischalten, Edelsteine gutschreiben und Käufe wiederherstellen</td><td>Erfüllung des Kaufvertrags; gesetzliche Buchhaltungspflichten</td></tr>
+<tr><td>Google Play (Google Ireland Ltd.)</td><td>Zahlungsdaten und Daten deines Google-Kontos</td><td>Käufe abrechnen sowie Abos und Erstattungen verwalten</td><td>Verarbeitung durch Google als Verantwortlicher nach eigener Richtlinie</td></tr>
+</table></div>
+<p>Deine Kartendaten erhalten wir nie. Mehr Informationen: <a href="https://policies.google.com/privacy" rel="noopener">Datenschutzerklärung von Google</a>, <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">wie Google Daten von Apps nutzt, die seine Dienste verwenden</a> und <a href="https://www.revenuecat.com/privacy" rel="noopener">Datenschutzerklärung von RevenueCat</a>.</p>
+
+<h2>4. Werbung und Einwilligung</h2>
+<p>Wenn du dich im Europäischen Wirtschaftsraum, im Vereinigten Königreich oder in der Schweiz befindest, siehst du beim ersten Öffnen der App das Einwilligungsformular von Google. Du kannst zustimmen, ablehnen oder nach Zwecken auswählen. Wenn du ablehnst, kannst du weiterspielen: Du siehst dann nicht personalisierte oder eingeschränkte Werbung.</p>
+<p>Du kannst deine Entscheidung jederzeit unter <strong>Profil → Datenschutzoptionen (Werbung)</strong> ändern. Außerdem kannst du deine Werbe-ID in den Android-Einstellungen (Google → Anzeigen) zurücksetzen oder löschen. Wenn du „Werbung entfernen“ oder das VIP-Abo kaufst, zeigt die App keine Werbung mehr an.</p>
+
+<h2>5. Empfänger und Übermittlungen in Drittländer</h2>
+<p>Wir geben Daten nur an die in Abschnitt 3 genannten Anbieter weiter. RevenueCat hat seinen Sitz in den USA, und Google kann Daten außerhalb des Europäischen Wirtschaftsraums verarbeiten. In diesen Fällen erfolgen Übermittlungen mit den Garantien der DSGVO, etwa den Standardvertragsklauseln der Europäischen Kommission oder dem EU-US-Datenschutzrahmen, soweit anwendbar.</p>
+
+<h2>6. Speicherdauer</h2>
+<ul>
+  <li>Daten auf deinem Handy: bis du die App deinstallierst oder ihre Daten löschst.</li>
+  <li>Kaufdaten bei RevenueCat: solange es zur Verwaltung deiner Käufe nötig ist und für die gesetzlich vorgeschriebenen Fristen, zum Beispiel aus steuerlichen Gründen.</li>
+  <li>AdMob-Daten: nach den Aufbewahrungsfristen von Google.</li>
+</ul>
+
+<h2>7. Kinder</h2>
+<p>Die App richtet sich nicht an Kinder unter 13 Jahren, und wir erheben ihre Daten nicht wissentlich. In Spanien liegt das Mindestalter für die Einwilligung in die Datenverarbeitung bei 14 Jahren, in Deutschland bei 16 Jahren. Wenn du jünger bist als in deinem Land vorgesehen, bitte deine Eltern oder Erziehungsberechtigten, dir beim Werbe-Formular zu helfen.</p>
+
+<h2>8. Deine Rechte</h2>
+<p>Du hast das Recht auf Auskunft, Berichtigung, Löschung, Widerspruch, Einschränkung der Verarbeitung und Datenübertragbarkeit. Du kannst deine Einwilligung jederzeit widerrufen, ohne dass dies die bisherige Verarbeitung berührt. Schreib an <a href="mailto:{{CORREU}}">{{CORREU}}</a>. Da die App keine Konten hat, nenne uns bitte zum Auffinden deiner Käufe die Google-Play-Bestellnummer (beginnt mit „GPA.“) aus der Beleg-E-Mail von Google.</p>
+<p>Wenn du meinst, dass wir deine Anfrage nicht richtig bearbeitet haben, kannst du dich bei der <a href="https://www.aepd.es" rel="noopener">spanischen Datenschutzbehörde (AEPD)</a> oder bei der Aufsichtsbehörde deines Landes beschweren.</p>
+
+<h2>9. Sicherheit</h2>
+<p>Die Kommunikation mit Google und RevenueCat ist verschlüsselt (HTTPS). Wir nutzen Anbieter, die angemessene Sicherheitsmaßnahmen anwenden.</p>
+
+<h2>10. Änderungen dieser Erklärung</h2>
+<p>Wenn wir diese Erklärung ändern, aktualisieren wir das Datum oben. Bei wesentlichen Änderungen informieren wir dich in der App.</p>
+
+<h2>11. Kontakt</h2>
+<p>{{RESPONSABLE}} · <a href="mailto:{{CORREU}}">{{CORREU}}</a></p>
+</section>
+
+<!-- ════════════════════════════ FRANÇAIS ════════════════════════════ -->
+<section class="lang" id="fr" lang="fr">
+<h1>Politique de confidentialité</h1>
+<p class="meta">Yatai Nights: Ramen Tycoon · Dernière mise à jour : 14 octobre 2026</p>
+
+<div class="summary"><strong>En bref</strong>
+<ul>
+  <li>Aucun compte n'est nécessaire. Nous ne te demandons ni ton nom, ni ton e-mail, ni ton téléphone.</li>
+  <li>Ta partie et le nom de ton restaurant sont enregistrés uniquement sur ton téléphone.</li>
+  <li>Google AdMob affiche des publicités et peut les personnaliser si tu y consens.</li>
+  <li>RevenueCat gère les achats pour que l'app sache ce que tu as acheté. Le paiement est assuré par Google Play.</li>
+  <li>Nous ne vendons pas tes données.</li>
+</ul></div>
+
+<h2>1. Responsable du traitement</h2>
+<p>Le responsable du traitement est <strong>{{RESPONSABLE}}</strong>, développeur de l'app Yatai Nights: Ramen Tycoon (« l'app »). Pour toute question sur la confidentialité, écris à <a href="mailto:{{CORREU}}">{{CORREU}}</a>.</p>
+
+<h2>2. Données qui restent sur ton téléphone</h2>
+<p>Ta progression (pièces, gemmes, améliorations, styles, records), le nom inscrit sur ton enseigne et ta langue sont enregistrés uniquement sur ton appareil. Nous ne les recevons pas. Si tu désinstalles l'app ou effaces ses données, ils sont perdus. L'abonnement VIP et « Retirer les pubs » peuvent être récupérés avec « Restaurer les achats ».</p>
+<p>Quand tu partages l'image de ton empire, l'app la crée sur ton téléphone et l'envoie à l'app que tu choisis via le menu de partage du système. Nous ne la recevons pas.</p>
+
+<h2>3. Données traitées par nos prestataires</h2>
+<div class="tbl"><table>
+<tr><th>Prestataire</th><th>Données</th><th>Finalité</th><th>Base légale</th></tr>
+<tr><td>Google AdMob (Google Ireland Ltd.)</td><td>Identifiant publicitaire de l'appareil, adresse IP (localisation approximative), interactions avec les publicités et l'app, données de diagnostic et de performance</td><td>Afficher et mesurer les publicités, statistiques et prévention de la fraude</td><td>Ton consentement pour les publicités personnalisées et l'accès à l'identifiant ; intérêt légitime pour les publicités non personnalisées et la prévention de la fraude</td></tr>
+<tr><td>RevenueCat, Inc.</td><td>Identifiant anonyme généré par RevenueCat, historique d'achats, données de l'appareil (système, version de l'app, pays de la boutique), adresse IP</td><td>Valider les achats, activer le VIP et « Retirer les pubs », livrer les gemmes et restaurer les achats</td><td>Exécution du contrat d'achat ; obligations comptables légales</td></tr>
+<tr><td>Google Play (Google Ireland Ltd.)</td><td>Données de paiement et de ton compte Google</td><td>Encaisser les achats et gérer les abonnements et remboursements</td><td>Traitées par Google en tant que responsable, selon sa propre politique</td></tr>
+</table></div>
+<p>Nous ne recevons jamais les données de ta carte. En savoir plus : <a href="https://policies.google.com/privacy" rel="noopener">Règles de confidentialité de Google</a>, <a href="https://policies.google.com/technologies/partner-sites" rel="noopener">comment Google utilise les données des apps qui utilisent ses services</a> et <a href="https://www.revenuecat.com/privacy" rel="noopener">Politique de confidentialité de RevenueCat</a>.</p>
+
+<h2>4. Publicités et consentement</h2>
+<p>Si tu te trouves dans l'Espace économique européen, au Royaume-Uni ou en Suisse, tu verras le formulaire de consentement de Google à la première ouverture de l'app. Tu peux accepter, refuser ou choisir par finalité. Si tu refuses, tu peux continuer à jouer : tu verras des publicités non personnalisées ou limitées.</p>
+<p>Tu peux changer ton choix à tout moment dans <strong>Profil → Options de confidentialité (pubs)</strong>. Tu peux aussi réinitialiser ou supprimer ton identifiant publicitaire dans les paramètres Android (Google → Annonces). Si tu achètes « Retirer les pubs » ou l'abonnement VIP, l'app n'affiche plus de publicités.</p>
+
+<h2>5. Destinataires et transferts internationaux</h2>
+<p>Nous ne partageons des données qu'avec les prestataires de la section 3. RevenueCat est établi aux États-Unis, et Google peut traiter des données hors de l'Espace économique européen. Dans ces cas, les transferts reposent sur les garanties prévues par le RGPD, comme les clauses contractuelles types de la Commission européenne ou le cadre de protection des données UE-États-Unis, le cas échéant.</p>
+
+<h2>6. Durée de conservation</h2>
+<ul>
+  <li>Données sur ton téléphone : jusqu'à ce que tu désinstalles l'app ou effaces ses données.</li>
+  <li>Historique d'achats chez RevenueCat : aussi longtemps que nécessaire pour gérer tes achats et pendant les durées imposées par la loi, par exemple à des fins fiscales.</li>
+  <li>Données AdMob : selon les durées de conservation de Google.</li>
+</ul>
+
+<h2>7. Mineurs</h2>
+<p>L'app ne s'adresse pas aux enfants de moins de 13 ans et nous ne collectons pas sciemment leurs données. En Espagne, l'âge minimum pour consentir au traitement des données est de 14 ans, en France de 15 ans. Si tu as moins que l'âge fixé dans ton pays, demande à un parent ou à ton tuteur de t'aider avec le formulaire publicitaire.</p>
+
+<h2>8. Tes droits</h2>
+<p>Tu peux exercer tes droits d'accès, de rectification, d'effacement, d'opposition, de limitation du traitement et de portabilité, et retirer ton consentement à tout moment sans remettre en cause ce qui a été fait auparavant. Écris à <a href="mailto:{{CORREU}}">{{CORREU}}</a>. Comme l'app n'a pas de comptes, indique-nous le numéro de commande Google Play (il commence par « GPA. ») figurant dans l'e-mail de reçu de Google pour retrouver tes achats.</p>
+<p>Si tu estimes que ta demande n'a pas été bien traitée, tu peux déposer une réclamation auprès de l'<a href="https://www.aepd.es" rel="noopener">Agence espagnole de protection des données (AEPD)</a> ou de l'autorité de ton pays (en France, la CNIL).</p>
+
+<h2>9. Sécurité</h2>
+<p>Les communications avec Google et RevenueCat sont chiffrées (HTTPS). Nous faisons appel à des prestataires qui appliquent des mesures de sécurité adaptées.</p>
+
+<h2>10. Modifications de cette politique</h2>
+<p>Si nous modifions cette politique, nous mettrons à jour la date ci-dessus. En cas de changement important, nous te préviendrons dans l'app.</p>
+
+<h2>11. Contact</h2>
+<p>{{RESPONSABLE}} · <a href="mailto:{{CORREU}}">{{CORREU}}</a></p>
+</section>
+
+<footer>© 2026 {{RESPONSABLE}} · Yatai Nights: Ramen Tycoon · <a href="index.html">Inici / Home</a></footer>
+</div>
+</body>
+</html>

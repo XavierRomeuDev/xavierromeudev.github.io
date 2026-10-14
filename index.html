@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ca">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Yatai Nights: Ramen Tycoon</title>
+<meta name="description" content="Obre la teva paradeta de ramen i converteix-la en un imperi a tot el Japó.">
+<style>
+  :root{--bg:#11142A;--ink:#F2EEE4;--muted:#A9ADCB;--accent:#FF7A6B;--gold:#F5B83D;--card:#1B2040}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:radial-gradient(circle at 50% 0%,#2A2457,var(--bg) 60%);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;padding:16px}
+  main{max-width:560px;text-align:center}
+  .lantern{width:64px;height:84px;margin:0 auto 18px;border-radius:32px;background:linear-gradient(#E5484D,#A8282F);box-shadow:0 0 40px #FF8A5C88;position:relative}
+  .lantern:before,.lantern:after{content:"";position:absolute;left:18px;width:28px;height:7px;background:#3A2400;border-radius:3px}
+  .lantern:before{top:-4px}.lantern:after{bottom:-4px}
+  h1{margin:0;font-size:34px;letter-spacing:.5px}
+  h1 span{color:var(--gold)}
+  p{color:var(--muted);margin:10px 0 24px}
+  .links{display:flex;flex-wrap:wrap;gap:10px;justify-content:center}
+  a{color:var(--ink);text-decoration:none;background:var(--card);border:1px solid #343C70;padding:10px 16px;border-radius:999px;font-weight:600}
+  a:hover{border-color:var(--accent)}
+  footer{margin-top:36px;font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+  <div class="lantern" aria-hidden="true"></div>
+  <h1>Yatai <span>Nights</span></h1>
+  <p>Obre la teva paradeta de ramen i converteix-la en un imperi a tot el Japó.<br>Open your own ramen stall and grow it into an empire across Japan.</p>
+  <div class="links">
+    <!-- Quan l'app estigui publicada, canvia l'enllaç per la fitxa de Google Play -->
+    <a href="https://play.google.com/store/apps/details?id=com.mariscromeu.yatainights">Google Play</a>
+    <a href="privacy.html">Privadesa · Privacy</a>
+    <a href="mailto:{{CORREU}}">Contacte · Contact</a>
+  </div>
+  <footer>© 2026 {{RESPONSABLE}}</footer>
+</main>
+</body>
+</html>
